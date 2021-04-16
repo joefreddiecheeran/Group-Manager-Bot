@@ -55,7 +55,7 @@ def send_rules(update, chat_id, from_pm=False):
 
 6. Usual talks and other queries are not entertained here.
 
-7.Please don't send porn/🔞adult or ask for porn/🔞adult videos,photos etc.format.",
+7.Please don't send porn/🔞adult or ask for porn/🔞adult videos,photos etc.format."
                                             
     else:
         update.effective_message.reply_text("The group admins haven't set any rules for this chat yet. "
