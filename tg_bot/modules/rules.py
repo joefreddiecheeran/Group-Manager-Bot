@@ -43,7 +43,7 @@ def send_rules(update, chat_id, from_pm=False):
     elif rules:
         update.effective_message.reply_text("The rules are:".format(rules)
                                             
-    else:
+    else rules:
         update.effective_message.reply_text("The group admins haven't set any rules for this chat yet. "
                                             "This probably doesn't mean it's lawless though...!")
 
