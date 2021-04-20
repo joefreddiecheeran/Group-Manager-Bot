@@ -1,4 +1,4 @@
-from typing import 
+from typing import Optional
 
 from telegram import Message, Update, Bot, User
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
